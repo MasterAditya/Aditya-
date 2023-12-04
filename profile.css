@@ -1,0 +1,92 @@
+.profile-container {
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid #fff; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+.profile-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.profile-info,
+.order-history {
+    border: none; 
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-info h3,
+.order-history h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+}
+/* Profile Info List */
+.profile-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+.order-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-history th,
+.order-history td {
+    padding: 5px;
+    text-align: left;
+}
+
+.order-history th {
+    font-weight: bold;
+    background-color: #f5f5f5; 
+    color: #333;
+}
+
+.order-history td {
+    border-top: 1px solid #ccc; 
+}
+
+.order-history tr:last-child td {
+    border-bottom: none; 
+}
+.home-btn,
+.profile-btn {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.home-btn,
+.profile-btn {
+    cursor: default; 
+}
